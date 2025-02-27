@@ -1,9 +1,19 @@
 :root {
-  --fontsize: 16px;
-  --fontcolor: #000000;
+    --fontsize: 16px;
+    --fontcolor: #000000;
 }
 
 body {
-  font-size: var(--fontsize);
-  color: var(--fontcolor);
+    font-size: var(--fontsize);
+    color: var(--fontcolor);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
 }
